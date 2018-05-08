@@ -1,0 +1,42 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.centrar{
+    align-self: center;
+    color: white;
+    padding: 13px;
+    background: cadetblue;
+}
+.linea{
+    display: flex;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+button{
+    height: 65px;
+    width: 65px;
+    margin: 1px;
+    border: 1px solid white;
+    border-radius: 0.2rem;
+}
+#pantalla_papa{
+    background: grey; 
+    margin-bottom: 10px;
+    justify-content: flex-end;
+}
+#pantalla{
+    height: 65px;
+    font-size: 3.6rem;
+}
